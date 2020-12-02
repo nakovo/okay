@@ -17,6 +17,6 @@
     },
     "chapter": {
         "content": ".box_box",
-        "filter": ["div"]
+        "filter": ["@div"]
     }
 }
