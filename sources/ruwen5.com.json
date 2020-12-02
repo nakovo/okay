@@ -19,7 +19,7 @@
     },
     "chapter": {
         "content": "#BookText",
-        "filter": ["@p"],
+        "filter": ["@p", "%-->>"],
         "page": "a[rel=\"next\"]:matches(下一页)"
     }
 }
