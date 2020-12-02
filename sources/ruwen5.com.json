@@ -1,7 +1,7 @@
 {
     "name": "如文网",
     "url": "ruwen5.com",
-    "remarks": "30秒内只能搜索1次",
+    "remarks": "该网站30秒内只能搜索1次资源",
     "version": 100,
     "search": {
         "url": "http://www.ruwen5.com/home/search@post->action=search&q=${key}",
