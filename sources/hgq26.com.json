@@ -1,0 +1,26 @@
+{
+    "name": "红甘泉",
+    "url": "hgq26.com",
+    "remarks": "该网站30秒内只能搜索1次资源",
+    "version": 100,
+    "search": {
+        "url": "https://www.hgq26.com/modules/article/search.php@post->searchtype=articlename&searchkey=${key}",
+        "charset": "gb2312",
+        "list": "#nr",
+        "name": "a",
+        "detail": "a"
+    },
+    "detail": {
+        "name": "h1",
+        "catalog": "#newlist > div > strong > a"
+    },
+    "catalog": {
+        "list": "#readerlist > ul > li:not(.fj)",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#content",
+        "filter": ["@a", "%(你是天才|本章共[0-9]段)(.|\n)+红甘泉小说网:"]
+    }
+}
