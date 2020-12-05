@@ -2,7 +2,7 @@
 {
     "name": "千千小说网",
     "url": "77xsw.cc",
-    "remarks": "该网站30秒内只能搜索1次资源，分页重复会4个字",
+    "remarks": "该网站30秒内只能搜索1次资源，分页拼接重复4个字",
     "version": 100,
     "search": {
         "url": "https://www.77xsw.cc/modules/article/search.php?searchkey=${key}",
