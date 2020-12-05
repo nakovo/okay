@@ -3,7 +3,7 @@
     "name": "千千小说网",
     "url": "77xsw.cc",
     "remarks": "该网站30秒内只能搜索1次资源，分页拼接重复4个字",
-    "version": 100,
+    "version": 101,
     "search": {
         "url": "https://www.77xsw.cc/modules/article/search.php?searchkey=${key}",
         "charset": "gb2312",
@@ -12,7 +12,7 @@
         "detail": "a"
     },
     "detail": {
-        "name": "h1.bookTitle"
+        "name": ".breadcrumb > li.active"
     },
     "catalog": {
         "list": "dd.col-md-3",
