@@ -3,9 +3,9 @@
     "name": "旧时光文学",
     "url": "oldtimescc.cc",
     "remarks": "该网站30秒内只能搜索1次资源",
-    "version": 100,
+    "version": 101,
     "search": {
-        "url": "https://www.oldtimescc.cc/modules/article/search.php@post->q=${key}&action=login&submit=",
+        "url": "https://www.oldtimescc.cc/modules/article/search.php@post->searchkey=${key}&action=login&submit=",
         "charset": "gb2312",
         "list": "h4.bookname",
         "name": "a",
