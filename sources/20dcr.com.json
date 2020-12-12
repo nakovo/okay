@@ -1,7 +1,7 @@
 {
     "name": "稻草人书屋",
     "url": "20dcr.com",
-    "version": 100,
+    "version": 101,
     "search": {
         "url": "https://www.20dcr.com/plus/search.php?q=${key}@header->user-agent:Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Mobile Safari/537.36",
         "list": "tbody > tr",
@@ -17,9 +17,7 @@
     },
     "chapter": {
         "content": "#cont-text",
-        "filter": [
-            "#cont-text > style@match->(?<=.).+(?=\\{)"
-        ],
+        "filter": ["@div"],
         "page": "a:matches(下一页)"
     }
 }
